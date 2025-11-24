@@ -1,0 +1,56 @@
+body{
+    background-color:lightskyblue;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: left;
+}
+
+h3{
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+
+#Capilary{
+  justify-content: center;
+}
+
+/**Section**/
+#vein{
+    width:300px;
+    height:100px;
+    padding: 10px;
+    border-radius:9px;
+    background-color:#0000ff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+#capilary{
+    width: 300px; height:100px;
+    padding: 10px;
+    border-radius:9px;
+    background-color:#004b87;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+#Artery{
+    width: 400px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color:#286ACD;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+/**Section-ends**/
+img {
+    border-radius: 15px;
+}
+
