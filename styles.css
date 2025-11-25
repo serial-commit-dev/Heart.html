@@ -1,6 +1,13 @@
 body{
-    background-color:lightskyblue;
-    margin-top: 20px;
+    background-image: url(Web-1-Heart/bg-img/Blood-Vessel.jpg);
+    font-family: Roboto-Thin, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: floralwhite;
 }
 
 h2{
@@ -18,39 +25,93 @@ header{
 }
 
 
-#Capilary{
-  justify-content: center;
+#Capilary-container{
+    margin-top: 32px;
+    margin-bottom: 23px;
+    text-align:center;
+    border-color: turquoise;
+    border-radius: 22px;
+
 }
 
 /**Section**/
-#vein{
-    width:300px;
-    height:100px;
-    padding: 10px;
-    border-radius:9px;
+#vein-section{
+    margin: 11px auto;
+    width:400px;
+    height:140px;
+    padding: 20px;
+    border-radius:15px;
     background-color:#0000ff;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    box-shadow: none;
+    transition-duration: 0.5s;
 }
 
-#capilary{
-    width: 300px; height:100px;
-    padding: 10px;
-    border-radius:9px;
+#vein-section:hover{
+    box-shadow: 1px 2px 0 1px rgba(0,0,0,1);
+    transition-duration: 0.5s;
+}
+
+#capilary-section{
+    margin: 21px auto;
+    width: 400px;
+    height:140px;
+    padding: 20px;
+    border-radius: 15px;
     background-color:#004b87;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transition-duration: 0.5s;
+    box-shadow: none;
 }
 
-#Artery{
+#capilary-section:hover{
+    box-shadow: 1px 2px 0 1px rgba(0,0,0,1);
+    transition-duration: 0.5s;
+}
+
+#Artery-section{
+    margin: 21px auto;
+    text-align:center;
     width: 400px;
     height: 140px;
-    padding: 10px;
-    border-radius: 9px;
-    background-color:#286ACD;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-
-}
-/**Section-ends**/
-img {
+    padding: 20px;
     border-radius: 15px;
+    border: none;
+    background-color: lightcoral;
+    transition-duration: 0.5s;
+    box-shadow: none;
 }
 
+#Artery-section:hover{
+    box-shadow: 1px 2px 0 1px rgba(0,0,0,1);
+    transition-duration: 0.5s;
+}
+
+/**Section-ends**/
+
+#Heart-img{
+    text-align: center;
+}
+
+header{
+    padding: 20px 20px;
+    background-color: #1e1e1e;
+}
+
+a{
+    margin-left: 15px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    margin-bottom: 40px;
+    text-decoration:none;
+    text-align:center;
+    font-weight: bold;
+    color:floralwhite;
+}
+
+li{
+    text-align:left;
+}
