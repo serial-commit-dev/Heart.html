@@ -1,23 +1,28 @@
 body{
-    background-image: url(Web-1-Heart/bg-img/Blood-Vessel.jpg);
+    background-color: crimson;
+    background-size: cover;
     font-family: Roboto-Thin, sans-serif;
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
 
 h1{
     text-align: center;
-    color: floralwhite;
+    color:whitesmoke;
 }
 
 h2{
     text-align: left;
+    color:ghostwhite;
+
 }
 
 h3{
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
 header{
@@ -29,14 +34,12 @@ header{
     margin-top: 32px;
     margin-bottom: 23px;
     text-align:center;
-    border-color: turquoise;
     border-radius: 22px;
-
 }
 
 /**Section**/
 #vein-section{
-    margin: 11px auto;
+    margin: 21px auto;
     width:400px;
     height:140px;
     padding: 20px;
@@ -85,7 +88,19 @@ header{
     transition-duration: 0.5s;
 }
 
+#capilary-image{
+    border-radius: 30px;
+    box-shadow: 0 0 0 1px rgba(0,0,4,0.1);
+
+}
+
 /**Section-ends**/
+
+
+
+#artery-link{
+    scroll-behavior:auto;
+}
 
 #Heart-img{
     text-align: center;
@@ -94,6 +109,13 @@ header{
 header{
     padding: 20px 20px;
     background-color: #1e1e1e;
+}
+
+footer{
+    padding: 15px 20px;
+    background-color: #1e1e1e;
+    text-align: center;
+    color:white;
 }
 
 a{
@@ -114,4 +136,10 @@ nav a{
 
 li{
     text-align:left;
+    color: white;
+}
+
+.new-div{
+    padding: 20px 20px;
+    background-color: forestgreen;
 }
